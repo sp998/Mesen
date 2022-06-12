@@ -213,19 +213,19 @@ namespace Mesen.GUI.Debugger
 			}
 		}
 
-		private void mnuConfigureColors_Click(object sender, EventArgs e)
-		{
-			if(frmEventViewerColors.Instance != null) {
-				frmEventViewerColors.Instance.BringToFront();
-			} else {
-				frmEventViewerColors frm = new frmEventViewerColors();
-				frm.Show(this, this);
-				frm.FormClosed += (s, evt) => {
-					this.GetData();
-					this.RefreshViewer();
-				};
-			}
-		}
+		//private void mnuConfigureColors_Click(object sender, EventArgs e)
+		//{
+		//	if(frmEventViewerColors.Instance != null) {
+		//		frmEventViewerColors.Instance.BringToFront();
+		//	} else {
+		//		frmEventViewerColors frm = new frmEventViewerColors();
+		//		frm.Show(this, this);
+		//		frm.FormClosed += (s, evt) => {
+		//			this.GetData();
+		//			this.RefreshViewer();
+		//		};
+		//	}
+		//}
 
 		private void ctrlEventViewerPpuView_OnPictureResized(object sender, EventArgs e)
 		{

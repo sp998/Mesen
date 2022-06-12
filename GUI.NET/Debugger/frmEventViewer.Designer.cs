@@ -310,7 +310,7 @@
 			this.mnuConfigureColors.Name = "mnuConfigureColors";
 			this.mnuConfigureColors.Size = new System.Drawing.Size(198, 22);
 			this.mnuConfigureColors.Text = "Configure Colors";
-			this.mnuConfigureColors.Click += new System.EventHandler(this.mnuConfigureColors_Click);
+			//this.mnuConfigureColors.Click += new System.EventHandler(this.mnuConfigureColors_Click);
 			// 
 			// toolStripMenuItem1
 			// 

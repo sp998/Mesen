@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mesen.GUI</RootNamespace>
     <AssemblyName>Mesen</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
@@ -705,12 +706,6 @@
     </Compile>
     <Compile Include="Debugger\frmDbgPreferences.Designer.cs">
       <DependentUpon>frmDbgPreferences.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Debugger\frmEventViewerColors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Debugger\frmEventViewerColors.Designer.cs">
-      <DependentUpon>frmEventViewerColors.cs</DependentUpon>
     </Compile>
     <Compile Include="Debugger\frmDebuggerColors.cs">
       <SubType>Form</SubType>
@@ -1543,9 +1538,6 @@
     <EmbeddedResource Include="Debugger\frmDbgPreferences.resx">
       <DependentUpon>frmDbgPreferences.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Debugger\frmEventViewerColors.resx">
-      <DependentUpon>frmEventViewerColors.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Debugger\frmDebuggerColors.resx">
       <DependentUpon>frmDebuggerColors.cs</DependentUpon>
     </EmbeddedResource>
@@ -1819,9 +1811,6 @@
     <Content Include="Dependencies\CharacterMappings.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Dependencies\PixelFont.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -1941,6 +1930,7 @@
     <None Include="Resources\BreakpointEnableDisable.png" />
     <None Include="Resources\ArrowKeys.png" />
     <None Include="Resources\Barcode.png" />
+    <None Include="Resources\CloseWhite.png" />
     <Content Include="Resources\coins.png" />
     <None Include="Resources\DipSwitches.png" />
     <None Include="Resources\MesenIcon.png" />
